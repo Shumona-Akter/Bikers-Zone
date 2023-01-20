@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.w-10{
+    width: 10%;
+}
+hr{
+    border-color: #E76F51;
+}
+.primary-cl{
+    color: #E76F51;
+}
+/* banner */
+.bg-nav {
+    background:#264653 ;
+}
+.bg-btn{
+    background: #E76F51;
+}
+
+element.style {
+}
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color:#E76F51;
+    border-color: var(--bs-btn-hover-border-color);
+}
+#navber .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: #E76F51;
+    border-color: #E76F51;
+}
+#banner{
+    background: #264653;
+    padding-top: 150px;
+    padding-bottom: 60px;
+}
+#banner a{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #E76F51;
+    padding: 10px 46px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.cus-button{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #E76F51;
+    padding: 10px 46px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.cus-border{
+    border: 1px solid #E76F51;
+    border-radius: 8px;
+}
+.card-img{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.fs-7{
+    font-size: 14px;
+}
