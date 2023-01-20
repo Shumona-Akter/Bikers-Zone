@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
     
 }
 .w-10{
@@ -18,6 +19,14 @@ hr{
 }
 /* banner */
 .bg-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background:#264653 ;
+}
+.bg-ul{
     background:#264653 ;
 }
 .bg-btn{
